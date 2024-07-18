@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"  rel="stylesheet">
+    <link href="images/user.png" type="png" rel="website icon">
+<title>My Profile</title>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-08.jpg');
+            background-color: black;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+       .container{
+            background-color: transparent ;
+            background-size: cover;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            width: 300px;
+            backdrop-filter: blur(10px);
+       }
+        .container h2 {
+            text-align: center;
+            text-decoration: white;
+            color:white;
+            text-shadow: black;
+
+        }
+        .form-group {
+            margin-bottom: 20px;
+           
+           
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color:white;
+            
+            
+        }
+        .form-group input {
+            width: 95%;
+            padding: 8px;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 5PX white;
+            margin-top: 10px;
+            gap: 5px;
+            
+           
+        }
+        .form-group input:hover{
+            
+            transform: scale(1.05);
+        }
+        .form-group input[type="submit"] {
+            background-color:transparent;
+            color: white;
+            cursor: pointer;
+            border-radius: 20PX;
+            
+        }
+        .form-group input[type="submit"]:hover {
+            background-color: rgb(231, 49, 197);
+        }
+        .forgot-password {
+            text-align: right;
+            margin-bottom: 20px; 
+            text-decoration: none;   
+        }
+        a
+        {
+            color: #f0f0f0;
+        }
+        .form-group input[type="submit"] {
+            margin-left: 10px;
+        }
+        .Sign-Up{
+            text-align: right;
+        }
+        .form-group input::placeholder{
+            color: #f0f0f0;
+        }
+
+
+</style>
+</head>
+<body>
+        <div class="container">
+            <h2>Login </h2>
+            <div class="Sign-Up">
+                <a href='/signup' style="text-decoration: none;"> Sign-Up <i class="bx bxs-edit-alt"></i></a>
+            </div>
+            <br>
+            <form  action= '/' method="submit">
+                <div class="form-group">
+                    <label for="username"><i class="bx bxs-user"></i> Username</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter Your Name" style="background-color: transparent;">
+                </div>
+                <div class="form-group">
+                    <label for="Gmailid"><i class="bx bxl-gmail"></i> Gmailid</label>
+                    <input type="text" id="Gmailid" name="Gmailid" required placeholder="Enter Your Id" style="background-color: transparent;color: #f0f0f0;">
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="bx bxs-key"></i> Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter Password" style="background-color: transparent;">
+                </div>
+                <div class="form-group">
+                    <br>
+                    <div class="Login">
+                    <input type="submit" value="Login">
+                    </div>
+                </div>
+                <div class="forgot-password">
+                    <a href="" style="text-decoration: none;"> Forgot-Password ?</a>
+                </div>
+            </form>
+           
+        </div>
+
+    
+</body>
+</html> 
