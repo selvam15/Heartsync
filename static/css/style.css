@@ -664,6 +664,11 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .home{
+        background: url("https://wallpapercave.com/wp/wp2968502.jpg") no-repeat center;
+        hight:auto;
+        Width:auto;
+    }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
